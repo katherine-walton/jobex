@@ -6,8 +6,8 @@
     chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {
       chrome.declarativeContent.onPageChanged.addRules([{
         conditions: [new chrome.declarativeContent.PageStateMatcher({
-          pageUrl: {hostEquals: 'hire.withgoogle.com'},
-          // pageUrl: {hostEquals: 'developer.chrome.com'},
+          // pageUrl: {hostEquals: 'https://boards.greenhouse.io/lightstep/*'},
+          pageUrl: { hostContains: 'boards.greenhouse.io' }
         })
         ],
             actions: [new chrome.declarativeContent.ShowPageAction()]

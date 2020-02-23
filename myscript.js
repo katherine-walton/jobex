@@ -1,27 +1,58 @@
-// $("#body").val("testing123");
 
-// document.getElementById('body').value = 'testing123';
-// document.body.style.backgroundColor = '#FF0000';
-// document.getElementById('body').value.backgroundColor = '#FF0000';
+/*
+// first name
+var firstName = 'Katherine';
+var firstNameField = document.getElementById('input_firstName');
+firstNameField.value = firstName;
 
-// console.log("something");
+// last name
+var lastName = 'Walton';
+var lastNameField = document.getElementById('input_lastName');
+lastNameField.value = lastName;
 
-// inputs = $('input');
+// email
+var email = 'katherinefaithwalton@gmail.com';
+var emailField = document.getElementById('input_email');
+emailField.value = email;
+// console.log(emailField);
 
-// let changeColor = document.getElementsByTagName('input');
-// console.log(changeColor);
+var website = 'https://github.com/katherine-walton';
+var websiteField = document.getElementById('input_website');
+websiteField.value = website;
 
-// define your username and password
-var myUsername = 'Katherine';
-// var myPassword = '...';
+var website = 'https://github.com/katherine-walton';
+var websiteField = document.getElementById('input_website');
+websiteField.value = website;
 
-// find the fiends in your login form
-var loginField = document.getElementById('input_firstName');
-// var passwordField = document.getElementById('...');
+*/
 
-// fill in your username and password
-loginField.value = myUsername;
-// passwordField.value = myPassword;
+var firstName = 'Katherine';
+var firstNameField = document.getElementById('first_name');
+firstNameField.value = firstName;
+
+// last name
+var lastName = 'Walton';
+var lastNameField = document.getElementById('last_name');
+lastNameField.value = lastName;
+
+// email
+var email = 'katherinefaithwalton@gmail.com';
+var emailField = document.getElementById('email');
+emailField.value = email;
+// console.log(emailField);
+
+var phone = '12086505567';
+var phoneField = document.getElementById('phone');
+phoneField.value = phone;
+// console.log(emailField);
+
+var website = 'https://github.com/katherine-walton';
+var websiteField = document.getElementById('question_15686604');
+websiteField.value = website;
+
+
+
+
 
 // if you want, you can even automaticaly submit the login form
 // var loginForm = document.getElementById('...');

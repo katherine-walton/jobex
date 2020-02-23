@@ -16,15 +16,5 @@
         "128": "images/get_started128.png"
       }
     },
-    // "content_scripts": [
-    //     {
-    //         "matches": [
-    //             "https://hire.withgoogle.com/*"
-    //         ],
-    //         "js": [
-    //             "jquery.js",
-    //             "myscript.js"
-    //         ]
-    //     }],
     "manifest_version": 2
   }
